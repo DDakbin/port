@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: rgb(69, 73, 155, 0.03);
+}
+
+/* 소개 */
+
+#wrap .section:nth-child(1){
+    width: 90%;
+    margin: auto;
+    font: bold 5em 'Corbel';
+    color: #45499B;
+}
+#wrap .section:nth-child(1) h4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+/* 스킬 */
+#wrap .section:nth-child(2){
+    width: 90%;
+    margin: auto;
+}
+#wrap .section:nth-child(2) h4{
+    width: 100%;
+    margin-top: 3%;
+    /* margin-left: 3%; */
+    color: #45499B;
+    font: bold 3em 'Corbel';
+}
+
+#wrap .profile-img{
+    position: absolute;
+    z-index: 3;
+    top: 12%;
+    left: 13.3%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #45499B;
+    overflow: hidden;
+}
+
+#wrap .profile-img img{
+    width: 100%;
+    height: 100%;
+}
+#wrap .profile{
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    top: 43%;
+    left: 9%;
+    width: 400px;
+}
+
+#wrap .profile h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: '나눔고딕';
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    background: #45499B;
+    color: white;
+    line-height: 35px;
+    
+}
+#wrap .profile p{
+    font-size: 16px;
+    font-family: '나눔고딕';
+    margin-top: 10px;
+    color: #333;
+}
+#wrap .profile span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: '나눔고딕';
+    color: #333;
+}
+
+#wrap .skill{
+    position: relative;
+    top: 3%;
+    left: 40%;
+    width: 900px;
+}
+.skill img{
+    width: 60px;
+    height: 60px;
+}
+
+.skill .program{
+    margin: auto;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: '나눔고딕';
+    width: 220px;
+    height: 45px;
+    border-radius: 30px;
+    background: #45499B;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+}
+.skill .skill-ps{
+    width: 260px;
+    height: 260px;
+    top: 290%;
+    left: 5%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ps 차트 */
+.outer-ps{
+    width: 240px;
+    border-radius: 50%;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner-ps{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7),
+                 -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                 -0.5px -0.5px 0px rgba(0, 0, 0, 0.15),
+                 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number-ps{
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.skill-ps .st0{
+    fill: none;
+    stroke: #31A8FF;
+    stroke-width: 20px;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    opacity: 0;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.skill .skill-ai{
+    width: 260px;
+    height: 260px;
+    top: 290%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ai 차트 */
+
+.outer-ai{
+    width: 240px;
+    border-radius: 50%;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner-ai{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7),
+                 -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                 -0.5px -0.5px 0px rgba(0, 0, 0, 0.15),
+                 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number-ai{
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skill-ai .st1{
+    fill: none;
+    stroke: #FF9A00;
+    stroke-width: 20px;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    opacity: 0;
+    /* stroke-dasharray: 760;
+    stroke-dashoffset: 760; */
+    /* animation: ani-ai 2s linear forwards; */
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* @keyframes ani-ai{
+    100%{
+        stroke-dashoffset: 90;
+    }
+} */
+
+
+.skill .skill-html{
+    width: 260px;
+    height: 260px;
+    top: 900%;
+    left: 70%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* html 차트 */
+
+.outer-html{
+    width: 240px;
+    border-radius: 50%;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner-html{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7),
+                 -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                 -0.5px -0.5px 0px rgba(0, 0, 0, 0.15),
+                 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number-html{
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skill-html .st2{
+    fill: none;
+    stroke: #E44C25;
+    stroke-width: 20px;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    opacity: 0;
+    /* stroke-dasharray: 760;
+    stroke-dashoffset: 760;
+    animation: ani-html 2s linear forwards; */
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* @keyframes ani-html{
+    100%{
+        stroke-dashoffset: 230;
+    }
+} */
+
+
+.skill .skill-js{
+    width: 260px;
+    height: 260px;
+    top: 900%;
+    left: 25%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* js 차트 */
+
+.outer-js{
+    width: 240px;
+    border-radius: 50%;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner-js{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7),
+                 -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                 -0.5px -0.5px 0px rgba(0, 0, 0, 0.15),
+                 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number-js{
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skill-js .st3{
+    fill: none;
+    stroke: #FEDD23;
+    stroke-width: 20px;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    opacity: 0;
+    /* stroke-dasharray: 760;
+    stroke-dashoffset: 760;
+    animation: ani-js 2s linear forwards; */
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* @keyframes ani-js{
+    100%{
+        stroke-dashoffset: 280;
+    }
+} */
+
+
+
+/* 웹 */
+#wrap .section:nth-child(3){
+    width: 90%;
+    margin: auto;
+}
+#wrap .section:nth-child(3) h4{
+    margin-top: 3%;
+    /* margin-left: 3%; */
+    color: #45499B;
+    font: bold 3em 'Corbel';
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1% 5%;
+}
+.container .card{
+    position: relative;
+    width: 800px;
+    height: 750px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.container .card .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container .card:hover .content{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.container .card .content .imgbx{
+    position: relative;
+    width: 700px;
+    height: 540px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+}
+
+.container .card .content .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .card .content .contentbx h3{
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* 자간 */
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+.container .card .content .contentbx h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.container .card .sci{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+.container .card .sci li{
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0; /*디스플레이 none 말고 투명도 없애서 안보이게끔 */
+    transition-delay: calc(0.1s * var(--i)); /* 순서대로 나오게 끔*/
+}
+.container .card:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container .card .sci li a{
+    color: #333;
+    font-size: 24px;
+}
+.card .imgbx img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 아트워크 */
+#wrap .section:nth-child(4){
+    width: 90%;
+    margin: auto;
+}
+#wrap .section:nth-child(4) h4{
+    margin-top: 3%;
+    /* margin-left: 3%; */
+    color: #45499B;
+    font: bold 3em 'Corbel';
+}
+
+/* 배너 */
+#wrap .section:nth-child(5){
+    width: 90%;
+    margin: auto;
+}
+#wrap .section:nth-child(5) h4{
+    margin-top: 3%;
+    /* margin-left: 3%; */
+    color: #45499B;
+    font: bold 3em 'Corbel';
+}
