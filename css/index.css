@@ -10,43 +10,43 @@ body{
 }
 @font-face {
     font-family :'a스피드';
-    src: url('./font/a스피드.ttf') format('woff');
+    src: url(./font/a스피드.ttf) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family :'a드림고딕1';
-    src: url('./font/a드림고딕1.ttf') format('woff');
+    src: url(./font/a드림고딕1.ttf) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family :'a드림고딕2';
-    src: url('./font/a드림고딕2.ttf') format('woff');
+    src: url(./font/a드림고딕2.ttf) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family :'a드림고딕3';
-    src: url('./font/a드림고딕3.ttf') format('woff');
+    src: url(./font/a드림고딕3.ttf) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family :'a드림고딕4';
-    src: url('./font/a드림고딕4.ttf') format('woff');
+    src: url(./font/a드림고딕4.ttf) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family :'a드림고딕5';
-    src: url('./font/a드림고딕5.ttf') format('woff');
+    src: url(./font/a드림고딕5.ttf) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family :'a드림고딕6';
-    src: url('./font/a드림고딕6.ttf') format('woff');
+    src: url(./font/a드림고딕6.ttf) format('woff');
     font-weight: normal;
     font-style: normal;
 }
